@@ -53,10 +53,10 @@ class House
 
 interface IHouseBuilder
 {
-    HouseBuilder WindowCount(int count);
-    HouseBuilder DoorCount(int count);
-    HouseBuilder HaveGarden();
-    HouseBuilder HavePool();
+    IHouseBuilder WindowCount(int count);
+    IHouseBuilder DoorCount(int count);
+    IHouseBuilder HaveGarden();
+    IHouseBuilder HavePool();
     House Build();
 }
 
@@ -66,25 +66,25 @@ class HouseBuilder : IHouseBuilder
     int _doorCount;
     bool _haveGarden;
     bool _havePool;
-    public HouseBuilder WindowCount(int count)
+    public IHouseBuilder WindowCount(int count)
     {
         _windowCount = count;
         return this;
     }
 
-    public HouseBuilder DoorCount(int count)
+    public IHouseBuilder DoorCount(int count)
     {
         _doorCount = count;
         return this;
     }
 
-    public HouseBuilder HaveGarden()
+    public IHouseBuilder HaveGarden()
     {
         _haveGarden = true;
         return this;
     }
 
-    public HouseBuilder HavePool()
+    public IHouseBuilder HavePool()
     {
         _havePool = true;
         return this;
@@ -95,3 +95,5 @@ class HouseBuilder : IHouseBuilder
     }
 }
 #endregion
+
+//14:43
