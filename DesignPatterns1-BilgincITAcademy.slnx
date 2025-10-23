@@ -4,6 +4,10 @@
     <Project Path="01CretionalPatterns/02FactoryPattern/02FactoryPattern.csproj" />
     <Project Path="01CretionalPatterns/03AbstractFactoryPattern/03AbstractFactoryPattern.csproj" />
     <Project Path="01CretionalPatterns/04BuilderPattern/04BuilderPattern.csproj" />
+    <Project Path="01CretionalPatterns/05PrototypePattern/05PrototypePattern.csproj" />
+  </Folder>
+  <Folder Name="/02StructuralPatterns/">
+    <Project Path="02StructuralPatterns/01AdapterPattern/01AdapterPattern.csproj" />
   </Folder>
   <Folder Name="/Solution Items/">
     <File Path="README.md" />

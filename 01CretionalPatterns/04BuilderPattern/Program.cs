@@ -1,13 +1,27 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using FluentEmail.Core;
+using Microsoft.Extensions.DependencyInjection;
 
 Console.WriteLine("Builder Pattern...");
 
 ServiceCollection services = new();
+services
+    .AddFluentEmail("info@ts.com")
+    .AddSmtpSender("localhost", 25);
+
 #region Example 1
 services.AddScoped<IHouseBuilder, HouseBuilder>();
 #endregion
 
 using var srv = services.BuildServiceProvider();
+
+var fluentEmail = srv.GetRequiredService<IFluentEmail>();
+
+fluentEmail
+    .To("tanersaydam@gmail.com")
+    .Subject("Test")
+    .Body("<h1>Hello world</h1>", true)
+    .Send();
+
 #region Example 1
 IHouseBuilder houseBuilder1 = srv.GetRequiredService<IHouseBuilder>();
 House house1 = houseBuilder1
