@@ -1,5 +1,5 @@
-# Abstract Factory Pattern
-Birbiriyle ilişkişi object ailelerini üretmek için kullanılan pattern. Factory pattern tek bir yapıyı üretmeye odaklanırken, Abstract Factory pattern yapı içerisinde birden fazla yapıyı üretmeye odaklanır
+ï»¿# Abstract Factory Pattern
+Birbiriyle iliÅŸkiÅŸi object ailelerini Ã¼retmek iÃ§in kullanÄ±lan pattern. Factory pattern tek bir yapÄ±yÄ± Ã¼retmeye odaklanÄ±rken, Abstract Factory pattern yapÄ± iÃ§erisinde birden fazla yapÄ±yÄ± Ã¼retmeye odaklanÄ±r
 
 ## Hangi prensibe uygun
 - Open/Closed Prensibi
