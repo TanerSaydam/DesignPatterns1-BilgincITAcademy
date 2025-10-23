@@ -1,6 +1,14 @@
-﻿Console.WriteLine("Factory Pattern...");
+﻿using Microsoft.Extensions.DependencyInjection;
 
-INotification notification = NotificationFactory.Create(NotificationEnum.Sms);
+Console.WriteLine("Factory Pattern...");
+
+ServiceCollection services = new();
+services.AddScoped<INotification, SmsNotification>();
+
+using var srv = services.BuildServiceProvider();
+INotification notification = srv.GetRequiredService<INotification>(); //New version
+
+//INotification notification = NotificationFactory.Create(NotificationEnum.Sms); //Old version
 notification.Send("Hello world");
 
 Console.ReadLine();
@@ -66,4 +74,3 @@ enum NotificationEnum
     Cloude
 }
 #endregion
-
