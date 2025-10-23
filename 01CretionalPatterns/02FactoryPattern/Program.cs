@@ -3,13 +3,23 @@
 Console.WriteLine("Factory Pattern...");
 
 ServiceCollection services = new();
-services.AddScoped<INotification, SmsNotification>();
+services.AddKeyedScoped<INotification, SmsNotification>(NotificationEnum.Sms);
+services.AddKeyedScoped<INotification, EmailNotification>(NotificationEnum.Email);
+services.AddKeyedScoped<INotification, CloudeNotification>(NotificationEnum.Cloude);
+services.AddKeyedScoped<INotification, WhatsappNotification>(NotificationEnum.WP);
+services.AddScoped<Test>();
 
 using var srv = services.BuildServiceProvider();
-INotification notification = srv.GetRequiredService<INotification>(); //New version
+srv.GetRequiredService<Test>();
+INotification? smsNotification = srv.GetKeyedService<INotification>(NotificationEnum.Sms); //New version
+INotification emailNotification = srv.GetRequiredKeyedService<INotification>(NotificationEnum.Email); //New version
 
 //INotification notification = NotificationFactory.Create(NotificationEnum.Sms); //Old version
-notification.Send("Hello world");
+if (smsNotification is not null)
+{
+    smsNotification.Send("Hello world");
+}
+emailNotification.Send("Hello world");
 
 Console.ReadLine();
 
@@ -68,9 +78,17 @@ class NotificationFactory
 
 enum NotificationEnum
 {
-    Email,
+    Email = 0,
     Sms,
     WP,
     Cloude
 }
 #endregion
+
+class Test
+{
+    public Test([FromKeyedServices(NotificationEnum.Email)] INotification notification)
+    {
+
+    }
+}
