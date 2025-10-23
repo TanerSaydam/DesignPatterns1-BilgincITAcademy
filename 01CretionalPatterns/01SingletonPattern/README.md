@@ -1,0 +1,2 @@
+﻿# Singleton Pattern
+Dinamik olarak property ya da değişken bulunmayan ama tekrar tekrar üretmemiz gereken bir nesne varsa onun ilk üretildiğinde oluşan instance'nı diğer isteklerde de kullanmamızı öneren pattern.
