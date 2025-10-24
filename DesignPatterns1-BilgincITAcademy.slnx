@@ -17,9 +17,15 @@
   </Folder>
   <Folder Name="/03BehavioralPatterns/">
     <Project Path="03BehavioralPatterns/01ChainOfResponsibilityPattern/01ChainOfResponsibilityPattern.csproj" />
+    <Project Path="03BehavioralPatterns/02CommandPattern/02CommandPattern.csproj" Id="8d2bceb8-bcfb-4a76-96c7-69fb550ad6af" />
+    <Project Path="03BehavioralPatterns/03MediatorPattern/03MediatorPattern.csproj" Id="655fa7ff-a543-44fa-9488-7ec6cbbb9e25" />
   </Folder>
   <Folder Name="/04ModernPatterns/">
     <Project Path="04ModernPatterns/01Middleware/01Middleware.csproj" Id="46f122fa-fe31-4c54-bd36-4da780247909" />
+  </Folder>
+  <Folder Name="/04ModernPatterns/02CQRSPattern/">
+    <Project Path="04ModernPatterns/02CQRSPattern/02CQRSPattern.Application/02CQRSPattern.Application.csproj" Id="a79bbf3f-70cd-415e-a5d9-21a150fe14d0" />
+    <Project Path="04ModernPatterns/02CQRSPattern/02CQRSPattern.WebAPI/02CQRSPattern.WebAPI.csproj" />
   </Folder>
   <Folder Name="/Solution Items/">
     <File Path="README.md" />
