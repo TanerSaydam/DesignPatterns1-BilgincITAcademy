@@ -8,6 +8,7 @@
   </Folder>
   <Folder Name="/02StructuralPatterns/">
     <Project Path="02StructuralPatterns/01AdapterPattern/01AdapterPattern.csproj" />
+    <Project Path="02StructuralPatterns/02BridgePattern/02BridgePattern.csproj" Id="b6ad4d13-07bd-4992-8676-447c1659b18c" />
   </Folder>
   <Folder Name="/Solution Items/">
     <File Path="README.md" />
