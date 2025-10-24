@@ -10,6 +10,7 @@
     <Project Path="02StructuralPatterns/01AdapterPattern/01AdapterPattern.csproj" />
     <Project Path="02StructuralPatterns/02BridgePattern/02BridgePattern.csproj" Id="b6ad4d13-07bd-4992-8676-447c1659b18c" />
     <Project Path="02StructuralPatterns/03CompositePattern/03CompositePattern.csproj" Id="a7b76aa8-cfe8-41d4-99dc-a264e269e393" />
+    <Project Path="02StructuralPatterns/04DecoratorPattern/04DecoratorPattern.csproj" Id="30c915cc-045d-4da3-8659-00c167224a31" />
   </Folder>
   <Folder Name="/Solution Items/">
     <File Path="README.md" />
