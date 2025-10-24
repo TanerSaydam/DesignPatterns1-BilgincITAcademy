@@ -8,7 +8,7 @@ Console.ReadLine();
 
 record Product(
     string Name,
-    decimal Price); //14:19 başlayacağız
+    decimal Price);
 
 class ProductRepository
 {

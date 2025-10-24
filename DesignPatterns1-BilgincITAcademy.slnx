@@ -15,6 +15,12 @@
     <Project Path="02StructuralPatterns/06FlyweightPattern/06FlyweightPattern.csproj" Id="e1d16c92-ae49-4676-8489-9832fe8cd96f" />
     <Project Path="02StructuralPatterns/07ProxyPattern/07ProxyPattern.csproj" Id="96c83073-544d-4757-a7c8-9f323bf81d9e" />
   </Folder>
+  <Folder Name="/03BehavioralPatterns/">
+    <Project Path="03BehavioralPatterns/01ChainOfResponsibilityPattern/01ChainOfResponsibilityPattern.csproj" />
+  </Folder>
+  <Folder Name="/04ModernPatterns/">
+    <Project Path="04ModernPatterns/01Middleware/01Middleware.csproj" Id="46f122fa-fe31-4c54-bd36-4da780247909" />
+  </Folder>
   <Folder Name="/Solution Items/">
     <File Path="README.md" />
   </Folder>
