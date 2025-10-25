@@ -25,6 +25,7 @@
   </Folder>
   <Folder Name="/04ModernPatterns/02CQRSPattern/">
     <Project Path="04ModernPatterns/02CQRSPattern/02CQRSPattern.Application/02CQRSPattern.Application.csproj" Id="a79bbf3f-70cd-415e-a5d9-21a150fe14d0" />
+    <Project Path="04ModernPatterns/02CQRSPattern/02CQRSPattern.Domain/02CQRSPattern.Domain.csproj" Id="80ce8ae1-d4d2-46ae-a5f4-07a2d520427b" />
     <Project Path="04ModernPatterns/02CQRSPattern/02CQRSPattern.WebAPI/02CQRSPattern.WebAPI.csproj" />
   </Folder>
   <Folder Name="/Solution Items/">

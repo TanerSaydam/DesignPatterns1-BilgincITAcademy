@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\02CQRSPattern.Application\02CQRSPattern.Application.csproj" />
+    <ProjectReference Include="..\02CQRSPattern.Domain\02CQRSPattern.Domain.csproj" />
   </ItemGroup>
 
 </Project>

@@ -2,17 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
-    <RootNamespace>_02CQRSPattern.Application</RootNamespace>
+    <RootNamespace>_02CQRSPattern.Domain</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="TS.MediatR" Version="9.0.6" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\02CQRSPattern.Domain\02CQRSPattern.Domain.csproj" />
   </ItemGroup>
 
 </Project>
