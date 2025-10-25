@@ -24,6 +24,7 @@
     <Project Path="04ModernPatterns/01Middleware/01Middleware.csproj" Id="46f122fa-fe31-4c54-bd36-4da780247909" />
     <Project Path="04ModernPatterns/04ResultPattern/04ResultPattern.csproj" Id="b4d857ba-e4d3-46c4-a0e3-c134d8ac84c4" />
     <Project Path="04ModernPatterns/05OutboxPattern/05OutboxPattern.csproj" Id="27b28822-e9c8-475c-aac8-41c747b5660e" />
+    <Project Path="04ModernPatterns/07ResilencePattern/07ResilencePattern.csproj" Id="0784bbad-dcb6-4f1c-929f-1dc47f43ea8f" />
   </Folder>
   <Folder Name="/04ModernPatterns/02CQRSPattern/">
     <Project Path="04ModernPatterns/02CQRSPattern/02CQRSPattern.Application/02CQRSPattern.Application.csproj" Id="a79bbf3f-70cd-415e-a5d9-21a150fe14d0" />
