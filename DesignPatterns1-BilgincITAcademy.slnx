@@ -34,6 +34,10 @@
     <Project Path="04ModernPatterns/03OptionsPattern/03OptionsPattern.Infrastructure/03OptionsPattern.Infrastructure.csproj" Id="a2538c40-2e8e-48e9-adee-fe9ee77cdbb5" />
     <Project Path="04ModernPatterns/03OptionsPattern/03OptionsPattern.WebAPI/03OptionsPattern.WebAPI.csproj" Id="f1d3416c-ed03-461c-a807-477b1c1db2d2" />
   </Folder>
+  <Folder Name="/04ModernPatterns/06ServiceDiscoveryPattern/">
+    <Project Path="04ModernPatterns/06ServiceDiscoveryPattern/BasketWebAPI/BasketWebAPI.csproj" Id="efc0ee5e-8b6e-4a0e-bb04-4219a5bac660" />
+    <Project Path="04ModernPatterns/06ServiceDiscoveryPattern/ProductWebAPI/ProductWebAPI.csproj" Id="c86fbdbe-e44c-49b8-8d30-3270f55b36b4" />
+  </Folder>
   <Folder Name="/Solution Items/">
     <File Path="README.md" />
   </Folder>
