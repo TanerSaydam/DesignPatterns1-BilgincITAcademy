@@ -14,3 +14,10 @@
 
 ### 1) Creational Patterns
 - Singleton Pattern => Class'ın yalnızca bir örneğini oluşturmayı önerir
+
+## Gelecek Eğitim Önerileri 
+- Minimal API
+- OData
+- Clean Architecture (Scrutor, Carter, MediatR, Options,Result)
+- DDD
+- Aspire

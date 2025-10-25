@@ -19,6 +19,7 @@
     <Project Path="03BehavioralPatterns/01ChainOfResponsibilityPattern/01ChainOfResponsibilityPattern.csproj" />
     <Project Path="03BehavioralPatterns/02CommandPattern/02CommandPattern.csproj" Id="8d2bceb8-bcfb-4a76-96c7-69fb550ad6af" />
     <Project Path="03BehavioralPatterns/03MediatorPattern/03MediatorPattern.csproj" Id="655fa7ff-a543-44fa-9488-7ec6cbbb9e25" />
+    <Project Path="03BehavioralPatterns/04ObserverPattern/04ObserverPattern.csproj" Id="81b6cdfc-e8b5-4da3-966f-96a5e4c95200" />
   </Folder>
   <Folder Name="/04ModernPatterns/">
     <Project Path="04ModernPatterns/01Middleware/01Middleware.csproj" Id="46f122fa-fe31-4c54-bd36-4da780247909" />
@@ -36,6 +37,7 @@
     <Project Path="04ModernPatterns/03OptionsPattern/03OptionsPattern.WebAPI/03OptionsPattern.WebAPI.csproj" Id="f1d3416c-ed03-461c-a807-477b1c1db2d2" />
   </Folder>
   <Folder Name="/04ModernPatterns/06ServiceDiscoveryPattern/">
+    <Project Path="04ModernPatterns/06ServiceDiscoveryPattern/Aspire.AppHost/Aspire.AppHost.csproj" Id="2d3d082d-da20-4d47-a81b-290676f87810" />
     <Project Path="04ModernPatterns/06ServiceDiscoveryPattern/BasketWebAPI/BasketWebAPI.csproj" Id="efc0ee5e-8b6e-4a0e-bb04-4219a5bac660" />
     <Project Path="04ModernPatterns/06ServiceDiscoveryPattern/ProductWebAPI/ProductWebAPI.csproj" Id="c86fbdbe-e44c-49b8-8d30-3270f55b36b4" />
   </Folder>
