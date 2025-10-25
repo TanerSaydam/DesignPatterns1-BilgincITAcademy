@@ -1,0 +1,7 @@
+POST http://localhost:5176/create-order
+Content-Type: application/json
+
+{
+  "productId": 1,
+  "quantity": 5
+}

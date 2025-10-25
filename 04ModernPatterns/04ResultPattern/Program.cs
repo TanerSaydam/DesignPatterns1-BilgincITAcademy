@@ -4,12 +4,14 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddExceptionHandler<ErrorHandler>().AddProblemDetails();
 
+builder.Services.AddScoped<ProductService>();
+
 var app = builder.Build();
 
 app.UseExceptionHandler();
 
 app.MapGet("/", () => Result<string>.Succeed("Hello World!"));
-app.MapGet("/create", () => Result<string>.Succeed("Create is successful"));
+app.MapGet("/create", (ProductService productService) => productService.Create());
 app.MapGet("/update", () => Result<string>.Succeed("Update is successful"));
 app.MapGet("/delete", () => Result<string>.Succeed("Delete is successful"));
 app.MapGet("/getall", () =>
@@ -21,7 +23,7 @@ app.MapGet("/getall", () =>
 
     return Result<List<string>>.Succeed(names);
 });
-app.MapGet("/error1", () => Result<string>.Succeed("Product not found!"));
+app.MapGet("/error1", () => Result<string>.Failed("Product not found!"));
 app.MapGet("/error2", () =>
 {
     throw new ArgumentException("bla bla");
@@ -58,5 +60,22 @@ class Result<T>
     {
         return new Result<T>(message, false);
     }
+
+    public static implicit operator Result<T>(T data)
+    {
+        return new Result<T>(data);
+    }
 }
 
+
+class ProductService
+{
+    public Result<string> Create()
+    {
+        //if (false)
+        //{
+        //    return Result<string>.Failed("Failed");
+        //}
+        return "succeed";
+    }
+}
