@@ -5,3 +5,6 @@ Content-Type: application/json
   "name":"Bilgisayar",
   "price":50000
 }
+
+###
+GET http://localhost:5217/test
