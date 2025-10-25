@@ -22,11 +22,16 @@
   </Folder>
   <Folder Name="/04ModernPatterns/">
     <Project Path="04ModernPatterns/01Middleware/01Middleware.csproj" Id="46f122fa-fe31-4c54-bd36-4da780247909" />
+    <Project Path="04ModernPatterns/04ResultPattern/04ResultPattern.csproj" Id="b4d857ba-e4d3-46c4-a0e3-c134d8ac84c4" />
   </Folder>
   <Folder Name="/04ModernPatterns/02CQRSPattern/">
     <Project Path="04ModernPatterns/02CQRSPattern/02CQRSPattern.Application/02CQRSPattern.Application.csproj" Id="a79bbf3f-70cd-415e-a5d9-21a150fe14d0" />
     <Project Path="04ModernPatterns/02CQRSPattern/02CQRSPattern.Domain/02CQRSPattern.Domain.csproj" Id="80ce8ae1-d4d2-46ae-a5f4-07a2d520427b" />
     <Project Path="04ModernPatterns/02CQRSPattern/02CQRSPattern.WebAPI/02CQRSPattern.WebAPI.csproj" />
+  </Folder>
+  <Folder Name="/04ModernPatterns/03OptionsPattern/">
+    <Project Path="04ModernPatterns/03OptionsPattern/03OptionsPattern.Infrastructure/03OptionsPattern.Infrastructure.csproj" Id="a2538c40-2e8e-48e9-adee-fe9ee77cdbb5" />
+    <Project Path="04ModernPatterns/03OptionsPattern/03OptionsPattern.WebAPI/03OptionsPattern.WebAPI.csproj" Id="f1d3416c-ed03-461c-a807-477b1c1db2d2" />
   </Folder>
   <Folder Name="/Solution Items/">
     <File Path="README.md" />
