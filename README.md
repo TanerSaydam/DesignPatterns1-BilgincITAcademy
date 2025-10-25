@@ -21,3 +21,4 @@
 - Clean Architecture (Scrutor, Carter, MediatR, Options,Result)
 - DDD
 - Aspire
+- Vertical Slices (bakmak isterseniz)
